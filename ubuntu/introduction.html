@@ -37,7 +37,11 @@
                 
             
                 
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-disqus/plugin.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-pageview-count/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
                 
             
                 
@@ -170,6 +174,19 @@
             
         </li>
     
+        <li class="chapter " data-level="1.3.2" data-path="../gitbook/插件plugins.html">
+            
+                <a href="../gitbook/插件plugins.html">
+            
+                    
+                    插件plugins
+            
+                </a>
+            
+
+            
+        </li>
+    
 
             </ul>
             
@@ -236,9 +253,10 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <footer class="page-footer"><span class="copyright">&#xA9; &#x9EC4;&#x6587;&#x5E86; all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
-2020-04-30 20:46:58
-</span></footer>
+                                <p><footer class="page-footer"><span class="copyright">&#xA9; &#x9EC4;&#x6587;&#x5E86; all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2020-05-01 09:16:40
+</span></footer></p>
+<div id="gitalk-container"></div>
 <script>console.log("plugin-popup....");document.onclick = function(e){ e.target.tagName === "IMG" && window.open(e.target.src,e.target.src)}</script><style>img{cursor:pointer}</style>
                                 
                                 </section>
@@ -298,7 +316,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Ubuntu","level":"1.2","depth":1,"next":{"title":"Gitbook","level":"1.3","depth":1,"path":"gitbook/introduction.md","ref":"gitbook/introduction.md","articles":[{"title":"pdf转换","level":"1.3.1","depth":2,"path":"gitbook/pdf转换.md","ref":"gitbook/pdf转换.md","articles":[]}]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"neutral"},"config":{"plugins":["code","github","theme-comscore","tbfed-pagefooter","search-plus","expandable-chapters","splitter","popup","disqus","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"&copy 黄文庆","modify_label":"文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"disqus":{"useIdentifier":false,"shortName":"Huang-wq"},"github":{"url":"https://github.com/micro-coder/ROS-Note"},"livereload":{},"splitter":{},"search":{},"popup":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"theme-comscore":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false,"treeLevel":true},"expandable-chapters":{},"search-plus":{}},"theme":"default","author":"黄文庆","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"软件技术手册","language":"zh-hans","gitbook":"*","description":"记录用到的软件，以及它们的配置&使用方法"},"file":{"path":"ubuntu/introduction.md","mtime":"2020-04-30T12:46:58.611Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-04-30T13:34:03.961Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Ubuntu","level":"1.2","depth":1,"next":{"title":"Gitbook","level":"1.3","depth":1,"path":"gitbook/introduction.md","ref":"gitbook/introduction.md","articles":[{"title":"pdf转换","level":"1.3.1","depth":2,"path":"gitbook/pdf转换.md","ref":"gitbook/pdf转换.md","articles":[]},{"title":"插件plugins","level":"1.3.2","depth":2,"path":"gitbook/插件plugins.md","ref":"gitbook/插件plugins.md","articles":[]}]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"neutral"},"config":{"plugins":["code","github","theme-comscore","tbfed-pagefooter","search-plus","expandable-chapters","splitter","popup","pageview-count","mygitalk","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"&copy 黄文庆","modify_label":"文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"github":{"url":"https://github.com/micro-coder/ROS-Note"},"livereload":{},"splitter":{},"search":{},"popup":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"theme-comscore":{},"pageview-count":{},"mygitalk":{"flipMoveOptions":{},"enable":true,"clientID":"23dee6e55108c2ce0010","number":-1,"perPage":10,"proxy":"https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token","admin":["micro-coder"],"createIssueManually":false,"distractionFreeMode":false,"repo":"Software-Note","owner":"micro-coder","enableHotKey":true,"clientSecret":"5bf8844903024c2ba31476c155f1f9d90bf46199","pagerDirection":"last","labels":["Gitalk"]},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false,"treeLevel":true},"expandable-chapters":{},"search-plus":{}},"theme":"default","author":"黄文庆","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"软件技术手册","language":"zh-hans","gitbook":"*","description":"记录用到的软件，以及它们的配置&使用方法"},"file":{"path":"ubuntu/introduction.md","mtime":"2020-05-01T01:16:40.832Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-01T02:24:27.229Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
@@ -332,11 +350,19 @@
         
     
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+        <script src="../gitbook/gitbook-plugin-pageview-count/plugin.js"></script>
         
     
         
-        <script src="../gitbook/gitbook-plugin-disqus/plugin.js"></script>
+        <script src="https://cdn.bootcss.com/blueimp-md5/2.12.0/js/md5.min.js"></script>
+        
+    
+        
+        <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-mygitalk/mygitalk.js"></script>
         
     
         
