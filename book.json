@@ -12,7 +12,8 @@
         "expandable-chapters",
         "splitter" ,
         "popup",
-        "disqus"
+        "pageview-count",
+        "mygitalk"
     ],
 
 
@@ -32,8 +33,15 @@
           "modify_label": "文件修订时间：",
           "modify_format": "YYYY-MM-DD HH:mm:ss"
       },
-      "disqus": {
-        "shortName": "Huang-wq"
-    }
+      "mygitalk":{
+        "enable": true,
+        "clientID": "23dee6e55108c2ce0010",
+        "clientSecret": "5bf8844903024c2ba31476c155f1f9d90bf46199",
+        "repo": "Software-Note",
+        "owner": "micro-coder",
+        "admin": ["micro-coder"],
+        "distractionFreeMode": false
+
+      }
     }
 }
